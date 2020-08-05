@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/partials/give-classes.css">
     <link rel="shortcut icon" href="images/favicon.png">
     
+    <script src="scripts/addField.js" defer></script>
 
     <title>Proffy | Sua plataforma de estudos</title>
 
@@ -95,7 +96,7 @@
 
                 <fieldset id="schedule-items">
                     <legend>Horários disponíveis
-                        <button id="add-time">+ Novo Horário</button>
+                        <button id="add-time" type="button">+ Novo Horário</button>
                     </legend>
 
                     <div class="schedule-item">
@@ -126,33 +127,6 @@
 
                     </div>
 
-                    <div class="schedule-item">
-
-                        <div class="select-block">
-                            <label for="weekday">Dia da semana</label>
-                            <select name="weekday[]" id="weekday" required>
-                                <option value="">Selecione uma opção</option>
-                                <option value="0">Domingo</option>
-                                <option value="1">Segunda-feira</option>
-                                <option value="2">Terça-feira</option>
-                                <option value="3">Quarta-feira</option>
-                                <option value="4">Quinta-feira</option>
-                                <option value="5">Sexta-feira</option>
-                                <option value="6">Sábado</option>
-                            </select>
-                        </div>
-
-                        <div class="input-block">
-                            <label for="time_from">Das</label>
-                            <input type="time" name="time_from[]" required>
-                        </div>
-
-                        <div class="input-block">
-                            <label for="time_to">Até</label>
-                            <input type="time" name="time_to[]" required>
-                        </div>
-
-                    </div>
 
                 </fieldset>
 
@@ -170,5 +144,9 @@
         </main>
    </div> 
         
+
+   <script>
+
+   </script>
 </body>
 </html>
