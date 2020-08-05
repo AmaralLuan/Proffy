@@ -6,7 +6,7 @@
 html,
 body {
     height: 100vh;
-    font-size: 62,5%;
+    font-size: 62.5%;
 }
 
 body {
@@ -30,8 +30,11 @@ textarea {
 
 #container {
     width: 90vh;
-    max-width: 70rem;
+    max-width: 700px;
 }
+
+
+
 
 
 
@@ -62,3 +65,7 @@ textarea {
     --color-box-base: #FFFFFF;
     --color-box-footer: #FAFAFC;
     --color-small-info: #C1BCCC;
+
+    font-size: 62.5%;
+
+}
